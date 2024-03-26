@@ -10,4 +10,5 @@ docker run -d -e APPLICATION_KEY=<Your_Application_Key> rock6064/otohits:latest
 
 ```bash
 git update-index --chmod=+x run.sh
+git ls-files --stage run.sh
 ```
